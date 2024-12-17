@@ -1,0 +1,17 @@
+html 
+    head 
+        title=title  
+
+    style
+        include ../public/style.css
+
+    body 
+        h1 Välkommen till Max 
+        h1 Meny 
+ 
+    div 
+        each val in menu
+            div
+                p.name=val.name
+                p.description=val.description 
+                p.price=val.price + " kr"

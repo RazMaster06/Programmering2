@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(98, 252, 98);
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+p.name{
+    text-align: center;
+    font-size: 2rem;
+    border: solid rgb(210, 21, 21);
+    border-width: 5px;
+    margin-left: 30ch;
+    margin-right: 30ch;
+    background-color:red;
+}
+
+p.description{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 25ch;
+    margin-right: 25ch;
+    border: solid black;
+    background-color: aliceblue;
+}
+
+p.price{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 60px;
+}
